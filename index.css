@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid red;
+    padding: 1px;
+    
+
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    text-decoration: none;
+    padding-bottom: 30px;
+    
+
+}
+ul a {
+   padding-right: 10px;
+   text-decoration: none; 
+
+}
+.home-page{
+    background:url(image.jpg.jpg);
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+
+
+
+
+}
+.home-page h1{
+    text-align: center;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 300%;
+
+}
+.about-us{
+    padding-top: 2%;
+    width: 100%;
+    
+
+
+}
+.h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.our-mission{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.pro{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+
+}
+.program h2{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 3%;
+
+}
+.pro h3{
+    padding-top: 3%;
+}
+
+.com{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7%;
+    margin:1%;
+    font-size: 150%;
+
+}
+.h0 h3{
+     font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blue;
+    text-align: center;
+    margin-top: -25px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.soc{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+        border-radius: 4%; 
+    }
+    .socname{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 7%;
+        margin:1%;
+        font-size: 150%;
+    
+    }
+    .HS h3{ 
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: red;
+        text-align: center;
+        margin-top: -40px;
+        font-weight: bold;
+    }
+    .HS2{
+        text-align: center;
+        padding-top: -10px;
+    }
+    .HS3 {  
+        text-align: center;
+        padding-bottom: 7%;
+        margin:1%;
+        font-size: 150%;
+        
+    
+    }
+    .Admission h3{
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 150%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+    .Admission p{
+        text-align: center;
+        padding-bottom: 20px;
+        color: navy;
+    }
+    .BTN {
+        margin: 2% 45% 2% 45%;
+        padding: 10px;
+        font-weight: bold;
+        background: transparent;
+        border: 1px solid blue;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.4s;
+       
+        
+
+
+    }
+    .BTN a {
+        text-decoration: none;
+    }
+
+    .BTN:hover{
+        color: red;
+    }
+    .AD p{
+        padding-right: 20px;  
+        text-align: right 5px;
+        color: navy;
+        padding-bottom: 20px;
+        background-color:
+        
+    
+    }
+    .footer{
+        background-color:black;
+        padding-bottom: 5%;
+    
+
+    }
+      .fist-icon{
+        text-align: center;
+        padding-top: 80px;
+        color: aliceblue;
+        
+    }
+      .sec-icon{
+        text-align: center;
+        padding-top: 80px;
+        color: aliceblue;
+    }
+      .phone-icon{
+        text-align: center;
+        padding-top: 80px;
+        color: aliceblue;
+    }
+    .location{
+        text-align: center;
+        padding-top: 80px;
+        color: aliceblue;
+    }
+
+
+
+
